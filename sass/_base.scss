@@ -1,0 +1,37 @@
+:root {
+  --color-dark-blue: hsl(209, 23%, 22%); //(Dark Mode Elements)
+  --color-very-dark-blue-1: hsl(207, 26%, 17%); //(Dark Mode Background)
+  --color-very-dark-blue-2: hsl(200, 15%, 8%); //(Light Mode Text)
+  --color-dark-gray: hsl(0, 0%, 52%); //(Light Mode Input)
+  --color-very-light-gray: hsl(0, 0%, 98%); //(Light Mode Background)
+  --color-white: hsl(0, 0%, 100%); //(Dark Mode Text & Light Mode Elements)
+}
+
+//typography
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; //1rem == 10px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.4rem;
+}
+
+//utilities
+.u-display-flex {
+  display: flex;
+}
+.u-justify-sb {
+  justify-content: space-between;
+}

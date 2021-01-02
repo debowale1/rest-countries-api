@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+  
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <title>FRONTENDMENTOR | REST COUNTRIES API</title>
+</head>
+<body>
+  <navbar class="nav">
+    <div class="nav__logo nav--left">Where in the world?</div>
+    <div class="nav--right">
+      <ul class="darkmode">
+        <li class="darkmode__icon">moon</li>
+        <li class="darkmode__text"><a href="#">Dark Mode</a></li>
+      </ul>
+    </div>
+  </navbar>
+  <section class="countries">
+    <div class="container">
+      <form action="" class="search-form">
+        <input type="text" id="countries-search" class="search-form__input" placeholder="search for a country...">
+        <select class="search-form__filter" name="countries-filter" id="countries-filter">
+          <option value="">Filter By Region</option>
+          <option value="africa">Africa</option>
+          <option value="america">America</option>
+          <option value="asia">Asia</option>
+          <option value="europe">Europe</option>
+          <option value="oceania">Oceania</option>
+        </select>
+      </form>
+    </div>
+  </section>
+  
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://twitter.com/woundeddev">@woundedDev</a>.
+  </div>
+</body>
+</html>

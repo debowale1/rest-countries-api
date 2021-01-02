@@ -1,0 +1,24 @@
+{
+  "name": "rest-countries-api",
+  "version": "1.0.0",
+  "description": "rest countries api with thheme switcher",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass sass/main.scss css/styles.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch"
+  },
+  "keywords": [
+    "rest",
+    "javascript"
+  ],
+  "author": "ibrahim adeshina",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5"
+  }
+}

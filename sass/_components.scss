@@ -1,0 +1,43 @@
+.nav {
+  &--left {
+  }
+
+  &__logo {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+
+  &--right {
+    & .darkmode {
+      display: flex;
+      list-style: none;
+      font-weight: 600;
+
+      &__icon {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+
+//form
+.search-form {
+  &__input {
+    flex: 0 0 40%;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+
+    &:focus {
+      border: none;
+      outline: 0;
+    }
+  }
+
+  &__filter {
+    flex: 0 0 15%;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+  }
+}
