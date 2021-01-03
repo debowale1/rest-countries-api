@@ -21,6 +21,10 @@
   background-color: var(--color-very-light-gray);
   min-height: 90vh;
   padding: 3rem 0;
+
+  &__flags {
+    margin-top: 3rem;
+  }
 }
 
 //form

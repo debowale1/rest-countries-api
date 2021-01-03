@@ -55,6 +55,34 @@ body {
   padding: 1rem 1.5rem;
   border-radius: 0.5rem; }
 
+.countries__flags {
+  display: flex;
+  flex-flow: row wrap; }
+
+.countries__flag {
+  flex: 1 0 21%;
+  background-color: var(--color-white);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0rem 0.2rem 0.2rem rgba(0, 0, 0, 0.08);
+  margin: 3rem 1rem; }
+
+.countries__name {
+  font-size: 1.8rem;
+  margin-bottom: 1rem; }
+
+.countries__flag-image {
+  width: 100%; }
+
+.countries__short-details {
+  padding: 2rem; }
+
+.countries__properties {
+  list-style: none; }
+
+.countries__property {
+  margin-bottom: 0.5rem; }
+
 .container {
   max-width: 128.5rem;
   width: 100%;
@@ -71,6 +99,8 @@ body {
   background-color: var(--color-very-light-gray);
   min-height: 90vh;
   padding: 3rem 0; }
+  .countries__flags {
+    margin-top: 3rem; }
 
 .search-form {
   display: flex;
