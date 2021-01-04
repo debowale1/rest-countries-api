@@ -40,20 +40,22 @@ body {
   .nav--right .darkmode__icon {
     margin-right: 1rem; }
 
-.search-form__input {
-  flex: 0 0 40%;
-  border: none;
-  padding: 1rem 1.5rem;
-  border-radius: 0.5rem; }
-  .search-form__input:focus {
+.name-search-form {
+  flex: 0 0 40%; }
+  .name-search-form__input {
     border: none;
-    outline: 0; }
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem; }
+    .name-search-form__input:focus {
+      border: none;
+      outline: 0; }
 
-.search-form__filter {
-  flex: 0 0 15%;
-  border: none;
-  padding: 1rem 1.5rem;
-  border-radius: 0.5rem; }
+.filter-form {
+  flex: 0 0 15%; }
+  .filter-form__filter {
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem; }
 
 .countries__flags {
   display: flex;
@@ -102,7 +104,7 @@ body {
   .countries__flags {
     margin-top: 3rem; }
 
-.search-form {
+.forms-container {
   display: flex;
   justify-content: space-between;
   align-items: center; }

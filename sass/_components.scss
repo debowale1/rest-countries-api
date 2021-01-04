@@ -21,9 +21,10 @@
 }
 
 //form
-.search-form {
+.name-search-form {
+  flex: 0 0 40%;
+
   &__input {
-    flex: 0 0 40%;
     border: none;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
@@ -33,15 +34,17 @@
       outline: 0;
     }
   }
+}
+
+.filter-form {
+  flex: 0 0 15%;
 
   &__filter {
-    flex: 0 0 15%;
     border: none;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
   }
 }
-
 //countries
 .countries {
   &__flags {

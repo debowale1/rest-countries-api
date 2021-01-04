@@ -35,17 +35,23 @@
   </navbar>
   <section class="countries">
     <div class="container">
-      <form action="" class="search-form">
-        <input type="text" id="countries-search" class="search-form__input" placeholder="search for a country...">
-        <select class="search-form__filter" name="countries-filter" id="countries-filter">
-          <option value="">Filter By Region</option>
-          <option value="africa">Africa</option>
-          <option value="america">America</option>
-          <option value="asia">Asia</option>
-          <option value="europe">Europe</option>
-          <option value="oceania">Oceania</option>
-        </select>
-      </form>
+      <div class="forms-container">
+        <form action="/" class="name-search-form" id="name-search-form">
+          <input type="text" id="name-search" class="name-search-form__input" placeholder="search for a country...">
+          <input type="submit" style="display:none" />
+        </form>
+        <form class="filter-form" id="filter-form">
+          <select class="filter-form__filter" name="countries-filter" id="countries-filter">
+            <option value="">Filter By Region</option>
+            <option value="africa">Africa</option>
+            <option value="america">America</option>
+            <option value="asia">Asia</option>
+            <option value="europe">Europe</option>
+            <option value="oceania">Oceania</option>
+          </select>
+        </form>
+      </div>
+      <!-- flags section -->
       <div class="countries__flags">        
 
         <!-- <div class="countries__flag">
